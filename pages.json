@@ -1,0 +1,199 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/square/square",
+			"style": {
+				"navigationBarTitleText": "广场",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/add/add",
+			"style": {
+				"navigationBarTitleText": "发布",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/more/more",
+			"style": {
+				"navigationBarTitleText": "更多",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/add/create"
+		}, {
+			"path": "pages/index/detail",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/detail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/message/send"
+		},
+		{
+			"path": "pages/square/apply",
+			"style": {
+				"navigationBarTitleText": "签约",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/user/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/profile",
+			"style": {
+				"navigationBarTitleText": "个人资料",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/apply",
+			"style": {
+				"navigationBarTitleText": "代理",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+		, {
+			"path": "pages/user/setting",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/list"
+
+		}, {
+			"path": "pages/more/list",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/browser/browser"
+		},
+		{
+			"path": "pages/other/about",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "uview-ui/components/u-avatar-cropper/u-avatar-cropper",
+			"style": {
+				"navigationBarTitleText": "头像裁剪"
+			}
+		}, {
+			"path": "pages/other/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/other/protocol",
+			"style": {
+				"navigationBarTitleText": "隐私协议",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/other/help",
+			"style": {
+				"navigationBarTitleText": "帮助中心",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "悉地吧",
+		"navigationBarBackgroundColor": "#1296db",
+		"backgroundColor": "#F8F8F8",
+		"h5": {
+			"titleNView": false
+		}
+	},
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#303133",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/homepage.png",
+				"selectedIconPath": "static/icon/homepage_fill.png",
+				"text": "首页"
+			}, {
+				"pagePath": "pages/square/square",
+				"iconPath": "static/icon/browse.png",
+				"selectedIconPath": "static/icon/browse_fill.png",
+				"text": "广场"
+			},
+
+			{
+				"pagePath": "pages/add/add",
+				"iconPath": "static/icon/addition.png",
+				"selectedIconPath": "static/icon/addition_fill.png",
+				"text": "发布"
+			},
+
+			{
+				"pagePath": "pages/message/message",
+				"iconPath": "static/icon/message.png",
+				"selectedIconPath": "static/icon/message_fill.png",
+				"text": "消息"
+			}, {
+				"pagePath": "pages/user/user",
+				"iconPath": "static/icon/people.png",
+				"selectedIconPath": "static/icon/people_fill.png",
+				"text": "我的"
+			}
+		]
+	}
+}
